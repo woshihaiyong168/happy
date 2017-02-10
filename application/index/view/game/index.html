@@ -1,0 +1,141 @@
+<!DOCTYPE html >
+<head>
+<title>Happy 直播</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0 , maximum-scale=1.0, user-scalable=0">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/index/css/apply.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/index/css/share.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/index/css/public.css">
+<script type="text/javascript" src="__PUBLIC__/index/js/jquery.js"></script>
+<style>
+.img img {
+     width:153px;
+     height:98px;
+}
+footer{ 
+    position:fixed; bottom:0; width:100%; height:8%; background-color:#f2f2f2; overflow:hidden;
+  }
+
+footer .foot{
+ float:left; width:12%; height:2.4rem; margin:0.5rem 0 1rem 2.2rem; text-align:center; overflow:hidden; color:#7ecef4;
+}
+footer .foot img{ 
+  width:1rem; height:1rem; margin:0 auto; display:block;
+}
+footer .foot p{ 
+  margin-top:0.15rem; font-size:0.3rem;
+}
+footer .act{ 
+  color:#9c9c9c;
+}
+
+.apply-top {
+  width:96%; 
+  background:#7ecef4; 
+  padding:0 2%;
+  border-top:0.25em #7ecef4 solid; 
+  position:relative;
+}
+
+.border-bom{
+  border-bottom:2px #7ecef4 solid;
+}
+</style>
+</head>
+
+<body>
+<div id="wrap" class="clearfix overflow mg-auto"> 
+   <div class="apply-nav overflow mg-auto area">
+        <div class="overflow clearfix apply-top border-bom">
+            <a class="apply-return">返回</a>
+            <h2>游戏</h2>
+            <a href="#" class="apply-sou" style="visibility:hidden">搜索</a>
+            <a href="#" class="apply-pup">弹出</a>
+        </div>
+        <div class="i-icon mg-auto overflow area clearfix" id="apply-pup-icon">
+             <ul class="clearfix">
+		       	    <li>
+                  <a href="pro-list.html" class="i-icon-tao">
+                    <img src="__PUBLIC__/index/skin/images/app_01.png">
+                  </a>
+                </li>
+               <li>
+                  <a href="pro-list.html" class="i-icon-game">
+                    <img src="__PUBLIC__/index/skin/images/app_02.png">
+                  </a>  
+               </li>
+               <li>
+                  <a href="other-list.html" class="i-icon-bizhi">
+                    <img src="__PUBLIC__/index/skin/images/app_03.png">
+                  </a>
+                </li>
+               <li>
+                  <a href="news.html" class="i-icon-zhuan">
+                    <img src="__PUBLIC__/index/skin/images/app_04.png">
+                  </a>
+                </li>
+		         </ul>
+        </div>
+   </div> 
+  <!--产品列表-->
+    <div class="i-tab mg-auto overflow area clearfix">
+      <div class="i-tab-title">
+          <h2>游戏</h2>
+      </div>
+      <div class="tab-content clearfix overflow" id="con1">
+         <div class="clearfix tab-con" style="display:block">
+             <ul class="clearfix">
+                <li>
+                   <a href="detail.html" class="tab-con-href"><div class="img">
+                   <img src="__PUBLIC__/index/images/11.jpg" >
+                   <!-- <i class="hoticon"></i> -->
+                   </div></a>  
+                   <a href="detail.html" class="tab-title-href">夏季新款幼儿园园__ROOT__</a>              
+                </li>
+                <li>
+                   <a href="detail.html" class="tab-con-href"><div class="img"><img src="__PUBLIC__/index/images/12.jpg" >
+               <!--     <i class="hoticon"></i> -->
+                   </div></a>  
+                   <a href="detail.html" class="tab-title-href">夏装新款幼儿园</a>              
+                </li>
+                <li>
+                   <a href="detail.html" class="tab-con-href"><div class="img"><img src="__PUBLIC__/index/images/13.jpg" >
+                 <!--   <i class="hoticon"></i> -->
+                   </div></a>  
+                   <a href="detail.html" class="tab-title-href">幼儿园园服夏装</a>              
+                </li>
+                <li>
+                   <a href="detail.html" class="tab-con-href"><div class="img"><img src="__PUBLIC__/index/images/14.jpg" >
+              <!--      <i class="hoticon"></i> -->
+                   </div></a>  
+                   <a href="detail.html" class="tab-title-href">幼儿园园服新款学院</a>              
+                </li>
+                <li>
+                   <a href="detail.html" class="tab-con-href"><div class="img"><img src="__PUBLIC__/index/images/15.jpg" >
+                 <!--   <i class="hoticon"></i> -->
+                   </div></a>  
+                   <a href="detail.html" class="tab-title-href">夏季新款幼儿园园服</a>              
+                </li>
+                <li>
+                   <a href="detail.html" class="tab-con-href"><div class="img"><img src="__PUBLIC__/index/images/17.jpg" >
+               <!--     <i class="hoticon"></i> -->
+                   </div></a>  
+                   <a href="detail.html" class="tab-title-href">夏季丘比熊纯棉红</a>              
+                </li>
+      </ul>
+         </div>
+      </div>
+    </div>
+  <!--产品列表结束-->
+  
+{include file="../application/index/view/public/footer.html" /}
+
+</body> 
+
+<script type="text/javascript" src="__PUBLIC__/index/js/com.js"></script> 
+<script>
+  $('.apply-return').click(function(){
+      window.location.href = "http://www.lxinyin.xin/Happy/public";
+  })
+</script>
+</html>

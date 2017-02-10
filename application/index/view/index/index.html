@@ -1,0 +1,292 @@
+<!DOCTYPE html >
+<head>
+<title>Hapyy 直播</title>
+<meta name="keywords" content="Hapyy 直播">
+<meta name="description" content="Hapyy 直播">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0 , maximum-scale=1.0, user-scalable=0">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/index/css/apply.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/index/css/share.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/index/css/public.css">
+<!-- <link rel="stylesheet" type="text/css" href="__PUBLIC__/index/css/style.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/index/css/index.css"> -->
+<style>
+.img img {
+    width:153px;
+    height:98px;
+}
+.i-tab-title{
+    height:4.8em;
+}
+
+.newlogo {
+   width:100%;
+   height:3.2rem;
+   background-color:#7ecef4;
+}
+.newlogo img{
+   float:left;
+   width:40px;
+   height:40px;
+   margin:2% 0 0 28%;
+}
+.newlogo span{
+    font-size:22px;
+    font-family:黑体;
+    color:#fff;
+    display:inline-block;
+    line-height:40px;
+    margin:2% 0 0 5%;
+}
+
+
+
+
+header{ 
+  width:100%; 
+  height:2.2rem; 
+  background-color:#7ecef4;
+}
+header .sch{ 
+  float:left; 
+  width:90%; 
+  height:1.4rem; 
+  margin:1% 5% 1% 5%; 
+  border-radius:0.1rem; 
+  background-color:#68b2d5; 
+  text-align:center;
+}
+header .sch p{ 
+  line-height:1.4rem; 
+  color:#fff; 
+  font-size:0.4rem;
+}
+header .sch p img{ 
+  width:0.45rem; 
+  height:0.44rem; 
+  vertical-align:middle;
+}
+
+footer{ 
+  position:fixed; 
+  bottom:0; 
+  width:100%;
+  height:8%; 
+  background-color:#f2f2f2; 
+  overflow:hidden;
+}
+
+footer .foot{
+   float:left; 
+   width:12%; 
+   height:2.4rem; 
+   margin:0.5rem 0 1rem 2.2rem; 
+   text-align:center; 
+   overflow:hidden; 
+   color:#7ecef4;
+}
+footer .foot img{ 
+    width:1rem; 
+    height:1rem; 
+    margin:0 auto; 
+    display:block;
+}
+footer .foot p{ 
+    margin-top:0.15rem; 
+    font-size:0.3rem;
+}
+footer .act{ 
+    color:#9c9c9c;
+}
+</style>
+<script type="text/javascript" src="__PUBLIC__/index/js/jquery.js"></script>
+<script type="text/javascript" src="__PUBLIC__/index/js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/index/js/swiper-2.1.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/index/js/lazyload.js"></script>
+
+
+
+<script type="text/javascript" charset="utf-8">   
+        $(function() {   
+            $("img").lazyload({
+        effect      : "fadeIn"
+      });
+        });   
+    </script>
+</head>
+<body>
+<div id="wrap" class="clearfix overflow mg-auto">    
+  <!-- <div class="i-head mg-auto overflow area border-bom">
+     <h1>省心购幼教品</h1>
+  </div> -->
+  <div class="newlogo">
+       <img src="__PUBLIC__/index/images/newlogo1.png" alt=""><span>Happy 直播</span>
+    </div>
+   <header>
+  <i class="logo"></i>
+    <a href="#">
+    <div class="sch">
+      <p><img src="__PUBLIC__/index/images/icon/sch.png">搜索最爱主播</p>
+    </div>
+    </a>
+</header>
+
+
+
+
+  <!--焦点图开始-->
+    <div class="swiper-container overflow" style="height: 327px;">
+    
+        <div class="swiper-wrapper" id="swiper-wrapper">
+            <div class="swiper-slide" style="height: 327px; width: 640px;">
+                <a href="#"><img src="__PUBLIC__/index/images/banner1.jpg" alt="#" title="#" width="640px" height="327px"></a>
+            </div>
+        
+            <div class="swiper-slide" style="height: 327px; width: 640px;">
+                <a href="#"><img src="__PUBLIC__/index/images/banner2.jpg" alt="#" title="#" width="640px" height="327px"></a>
+            </div>
+        </div> 
+        <div class="pagination"></div> 
+    
+    </div>
+  <script type="text/javascript">        
+         var newSlideSize = function slideSize(){
+            var w = Math.ceil($(".swiper-container").width()/1.96);
+            $(".swiper-container,.swiper-wrapper,.swiper-slide").height(w); 
+         };
+         newSlideSize();
+         $(window).resize(function(){
+           newSlideSize();
+         });
+    </script> 
+  <!--焦点图结束-->
+  
+  <!--快捷菜单开始-->
+  <!--   <div class="i-icon mg-auto overflow area clearfix">
+        <ul class="clearfix">
+           <li><a href="pro-list.html" class="i-icon-tao"><img src="__PUBLIC__/index/img/app_01.png"></a></li>
+           <li><a href="pro-list.html" class="i-icon-game"><img src="__PUBLIC__/index/img/app_02.png"></a></li>
+           <li><a href="other-list.html" class="i-icon-bizhi"><img src="__PUBLIC__/index/img/app_03.png"></a></li>
+           <li><a href="news.html" class="i-icon-zhuan"><img src="__PUBLIC__/index/img/app_04.png"></a></li>
+        </ul>
+    </div> -->
+  <!--快捷菜单结束-->
+    
+  <!--最热开始-->
+    <div class="i-tab mg-auto overflow area clearfix">
+      <div class="i-tab-title">
+          <h2>全部主播</h2>
+          <div style="float:right;margin:2em 1em 2em 2em;">
+              <a style="font-size: 16px;color: #666;" href="#">更多 ></a>
+          </div>
+        
+       <!--    <div class="tab-btn" id="tab1">
+            <p class="mg-auto clearfix">
+             <a href="javascript:;" class="tab-cur">推荐</a>
+             <a href="javascript:;">分类</a>
+            </p>
+          </div> -->
+      </div>
+      <div class="tab-content clearfix overflow" id="con1">
+         <div class="clearfix tab-con" style="display:block">
+             <ul class="clearfix">
+                <li>
+                   <a href="detail.html" class="tab-con-href"><div class="img">
+                   <img src="__PUBLIC__/index/images/11.jpg" >
+                   <!-- <i class="hoticon"></i> -->
+                   </div></a>  
+                   <a href="detail.html" class="tab-title-href">夏季新款幼儿园园</a>              
+                </li>
+                <li>
+                   <a href="detail.html" class="tab-con-href"><div class="img"><img src="__PUBLIC__/index/images/12.jpg" >
+               <!--     <i class="hoticon"></i> -->
+                   </div></a>  
+                   <a href="detail.html" class="tab-title-href">夏装新款幼儿园</a>              
+                </li>
+                <li>
+                   <a href="detail.html" class="tab-con-href"><div class="img"><img src="__PUBLIC__/index/images/13.jpg" >
+                 <!--   <i class="hoticon"></i> -->
+                   </div></a>  
+                   <a href="detail.html" class="tab-title-href">幼儿园园服夏装</a>              
+                </li>
+                <li>
+                   <a href="detail.html" class="tab-con-href"><div class="img"><img src="__PUBLIC__/index/images/14.jpg" >
+              <!--      <i class="hoticon"></i> -->
+                   </div></a>  
+                   <a href="detail.html" class="tab-title-href">幼儿园园服新款学院</a>              
+                </li>
+                <li>
+                   <a href="detail.html" class="tab-con-href"><div class="img"><img src="__PUBLIC__/index/images/15.jpg" >
+                 <!--   <i class="hoticon"></i> -->
+                   </div></a>  
+                   <a href="detail.html" class="tab-title-href">夏季新款幼儿园园服</a>              
+                </li>
+                <li>
+                   <a href="detail.html" class="tab-con-href"><div class="img"><img src="__PUBLIC__/index/images/17.jpg" >
+               <!--     <i class="hoticon"></i> -->
+                   </div></a>  
+                   <a href="detail.html" class="tab-title-href">夏季丘比熊纯棉红</a>              
+                </li>
+      </ul>
+         </div>
+         
+         
+         <div class="clearfix tab-con2 tab-con-info">
+             <ul class="clearfix">
+                <li>
+                   <a href="soft/list_956_1.html" class="tab-con-href2 clearfix">
+                     <div class="img2"><img src="__PUBLIC__/index/img/loading.png" original="images/qbx_logo.jpg" alt="" title=""></div>
+                     <h4>丘比熊</h4>
+                     <p><i></i></p>                    
+                   </a>                       
+                </li>      <li>
+                   <a href="soft/list_955_1.html" class="tab-con-href2 clearfix">
+                     <div class="img2"><img src="__PUBLIC__/index/img/loading.png" original="images/abn_logo.jpg" alt="" title=""></div>
+                     <h4>艾宾尼</h4>
+                     <p><i></i></p>                    
+                   </a>                       
+                </li>
+             </ul>        
+         </div>
+      </div>
+    </div>
+  <!--最热结束-->
+   <!--底部-->
+  <div style="margin-top:15px;display: block;border-bottom: solid 1px #FFF;border-top: solid 1px #cacaca;text-indent: -9999px;height: 0px;">line</div>
+  <div style="width: 100%; height: 3.8em; line-height: 3.8em; text-align: center; color:#666">Happy直播手机版</div> 
+</div>
+
+<!--<div class="info-nr">
+    <div id="info-nr-phone" class="info-nr-phone">
+      <section id="toMenu"></section>
+      <div class="menu_01"> <a href="bibei/default.htm"></a> </div>
+      <div class="menu_02"> <a href="search/default.htm"></a> </div>
+      <div class="menu_03"> <a href="topic/list_1000.html"></a> </div>
+      <div class="menu_04"> <a href="wallpaper/default.htm"></a> </div>    
+      <div class="menu_05"> <a href="biwan/default.htm"></a> </div>    
+    </div>
+</div>-->
+
+ 
+<script type="text/javascript" src="__PUBLIC__/index/js/com.js"></script> 
+<script type="text/javascript">
+window.onload = function(){
+  var mySwiper = new Swiper('.swiper-container',{   
+    pagination: '.pagination',
+    loop:true,
+    autoplay:3000,  
+    paginationClickable: true,
+    onSlideChangeStart: function(){
+       //回调函数
+    }
+  }); 
+  cTab("#tab1","#con1");  
+  cTab("#tab2","#con2");  
+};
+</script>
+
+</html>
+
+
+
+
