@@ -37,8 +37,9 @@ footer .act{
     width:12.42rem; 
     height:6.62rem; 
     overflow:hidden; 
-    background:url(http://www.ht.com/20170209/public/index/images/user/person_top.jpg) no-repeat; 
-    background-size:12.42rem 6.62rem; 
+   background:url(http://59.110.158.104/happy/public/index/images/user/person_top.jpg) no-repeat; 
+    //background:url(__ROOT____PUBLIC__/index/images/user/person_top.jpg) no-repeat;   
+background-size:12.42rem 6.62rem; 
     color:#fff;
 }
 .head .head-img{ 
